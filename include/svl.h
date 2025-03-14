@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h> 
 #include <string.h>
+#include <stdbool.h>
+#include <stddef.h>
 #include <math.h>
 
 typedef enum
@@ -34,4 +36,5 @@ typedef __svl_vector svl[1];
 typedef __svl_vector* svl_ptr;
 typedef __svl_vector** svl_ptr_ptr;
 #include "svl_new.h"
+#include "svl_assign.h"
 #endif // SVL_H
